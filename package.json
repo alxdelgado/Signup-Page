@@ -7,7 +7,7 @@
   "keywords": [],
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "webpack-dev-server --mode development --open",
     "server": "nodemon server.js",
     "webpack-dev-server": "webpack-dev-server",
     "dev:webpack": "webpack-dev-server --mode=development",
@@ -21,6 +21,8 @@
     "file-loader": "^6.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "style-loader": "^1.2.1"
   },
   "devDependencies": {
