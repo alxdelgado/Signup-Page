@@ -1,6 +1,5 @@
-.signup-card {
-    color: black; 
-    border-color: 3px solid red;
-    width: 50%; 
+.signup-backdrop {
+    background: linear-gradient(#22c1c3, #c3b847);
+    width: 100vw; 
     height: 100vh;
 }
